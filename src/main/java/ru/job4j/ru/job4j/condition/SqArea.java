@@ -8,6 +8,7 @@ public class SqArea {
 
         double rsl = s;
         return rsl;
+
     }
 
     public static void main(String[] args) {
