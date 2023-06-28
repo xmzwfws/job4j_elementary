@@ -7,7 +7,7 @@ class DummyBotTest {
 
     @Test
         public void whenGreetBot() {
-            String in = "Hi, bot.";
+            String in = "Hi, Bot.";
             String result = DummyBot.answer(in);
             String expected = "Hi, SmartAss";
             assertThat(result).isEqualTo(expected);
