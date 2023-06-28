@@ -14,7 +14,8 @@ public class MathCalculator {
     }
 
     public static double theSumOfAllTransaction(double first, double second) {
-        return sumAndMultiply(first, second) + minusAndDivide(first, second);
+        return sumAndMultiply(first, second)
+                + minusAndDivide(first, second);
     }
 
     public static void main(String[] args) {
